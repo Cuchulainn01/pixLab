@@ -27,6 +27,17 @@ public class IntArrayWorker
     }
     return total;
   }
+  public int getCount(int val) {
+     int count = 0;
+     for (int[] subarray : theMatrix) {
+        for (int num : subarray) {
+           if (num == val) {
+              count ++;
+           }
+        }
+     }
+     return count;
+  }
   
   /**
    * Method to return the total using a nested for-each loop
