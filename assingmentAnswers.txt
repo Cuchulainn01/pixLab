@@ -33,4 +33,23 @@ A3
 7. Yes.
 
 A4
-1.
+A5
+1. No
+
+2. Yes
+
+3. No, DigitalPicture is an interface
+
+4. Yes
+
+5. Yes
+
+6. Yes
+
+7. No
+
+A7. 
+
+1. 10 * 9 - 91
+
+2. 6 * 15 = 90
