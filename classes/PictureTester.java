@@ -103,12 +103,26 @@ public class PictureTester
     canvas.explore();
   }
   
+  public static void testCopy()
+  {
+    Picture canvas = new Picture("640x480.jpg");
+    canvas.createCollage();
+    canvas.explore();
+  }
+  
   /** Method to test edgeDetection */
   public static void testEdgeDetection()
   {
     Picture swan = new Picture("swan.jpg");
-    swan.edgeDetection(10);
     swan.explore();
+    swan.edgeDetection(27);
+    swan.explore();
+  }
+  
+  public static void testMyCollage()
+  {
+    
+    
   }
   
   /** Main method for testing.  Every class can have a main
